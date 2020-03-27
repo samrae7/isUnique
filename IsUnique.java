@@ -6,7 +6,7 @@ public class IsUnique {
     System.out.println("Result: " + result);
   }
 
-  private static Boolean isUnique(final String word) {
+  static Boolean isUnique(final String word) {
     final Hashtable<Character, Boolean> hash_table = new Hashtable<Character, Boolean>();
     final char[] chars = word.toCharArray();
     for (final char w : chars) {
